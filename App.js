@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 // SafeAreaView etita as barras
 import {SafeAreaView, Text} from 'react-native';
 // ./ parte de onde estamos
-import Cesta from './telas/Cesta';
+import Cesta from './telas/cesta';
 import {
   useFonts,
   Montserrat_400Regular,
@@ -13,8 +13,8 @@ export default function App() {
 
   const [fonteCarregada] = useFonts(
     {
-      'MonserratRegular': Montserrat_400Regular,
-      'MonserratBold': Montserrat_700Bold,
+      'MontserratRegular': Montserrat_400Regular,
+      'MontserratBold': Montserrat_700Bold,
     }
   )
 
